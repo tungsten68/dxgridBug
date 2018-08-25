@@ -1,9 +1,13 @@
-﻿<dx:ThemedWindow x:Class="dxgridBug.MainWindow"
+﻿<dx:ThemedWindow
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
         xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:Views="clr-namespace:dxgridBug.Views" x:Class="dxgridBug.MainWindow"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-    </Grid>
+    <DockPanel>
+
+        <Views:Contact/>
+
+    </DockPanel>
 </dx:ThemedWindow>
